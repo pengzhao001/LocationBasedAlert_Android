@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <TextView
+        android:text="Set Destination:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:textColor="#ff000000" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="360.0dp"
+        android:layout_height="51.5dp"
+        android:id="@+id/locationText"
+        android:background="#ffe6e6e6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView1"
+        android:textColor="#ff000000" />
+    <TextView
+        android:text="Alert Within (miles):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/locationText"
+        android:textColor="#ff000000" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="360.0dp"
+        android:layout_height="49.5dp"
+        android:id="@+id/radiusText"
+        android:background="#ffe6e6e6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView2"
+        android:textColor="#ff000000" />
+    <Button
+        android:text="Set Alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:autoText="false"
+        android:background="#ff0a69f4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/radiusText" />
+    <TextView
+        android:text="Distance To Destination (miles):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/button" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="360.0dp"
+        android:layout_height="49.5dp"
+        android:id="@+id/distanceText"
+        android:background="#ffe6e6e6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+        android:layout_below="@id/textView3" />
+</RelativeLayout>
